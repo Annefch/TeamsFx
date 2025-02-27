@@ -1,0 +1,188 @@
+{
+    "$schema": "https://elio.dev/demo-time.schema.json",
+    "title": "Declarative Agent",
+    "demos": [
+        {
+            "title": "Manifest",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/manifest.json",
+                    "position": "40:47"
+                }
+            ]
+        },
+        {
+            "title": "Instructions",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/declarativeAgent.json",
+                    "position": "6"
+                }
+            ]
+        },
+        {
+            "title": "Instructions File",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "open",
+                    "path": "/appPackage/instruction.txt"
+                }
+            ]
+        },
+        {
+            "title": "WebSearch",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/declarativeAgent.json",
+                    "position": "34:39"
+                }
+            ]
+        },
+        {
+            "title": "OneDriveAndSharePoint",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/declarativeAgent.json",
+                    "position": "40:45"
+                }
+            ]
+        },
+        {
+            "title": "CodeInterpreter",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/declarativeAgent.json",
+                    "position": "46:48"
+                }
+            ]
+        },
+        
+        {
+            "title": "Actions",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/declarativeAgent.json",
+                    "position": "51:54"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-apiplugin.json",
+                    "position": "10:58"
+                }
+            ]
+        },
+        {
+            "title": "Auth",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-apiplugin.json",
+                    "position": "62:65"
+                }
+            ]
+        },
+        {
+            "title": "Adaptive Cards",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-apiplugin.json",
+                    "position": "25:50"
+                }
+            ]
+        },
+        {
+            "title": "OpenAPI Reference",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-apiplugin.json",
+                    "position": "66:68"
+                }
+            ]
+        },
+        {
+            "title": "List issues in a repository",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-openapi.yml",
+                    "position": "18"
+                }
+            ]
+        },
+        {
+            "title": "Filter by assignee",
+            "steps": [
+                {
+                    "action": "executeVSCodeCommand",
+                    "command": "workbench.action.closeSidebar"
+                },
+                {
+                    "action": "highlight",
+                    "path": "/appPackage/github-openapi.yml",
+                    "position": "50:56"
+                }
+            ]
+        }
+    ]
+}

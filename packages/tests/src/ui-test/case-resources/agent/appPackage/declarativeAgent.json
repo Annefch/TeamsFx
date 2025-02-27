@@ -1,0 +1,47 @@
+{
+    "$schema": "https://aka.ms/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+    "version": "v1.2",
+    "name": "[[Agent_Name]]",
+    "description": "[[Agent_Description]]",
+    "instructions": "$[file('instruction.txt')]",
+    "conversation_starters": [
+        {
+            "title": "[[Agent_CS_My_Issues_Title]]",
+            "text": "[[Agent_CS_My_Issues_Text]]"
+        },
+        {
+            "title": "[[Agent_CS_All_Issues_Title]]",
+            "text": "[[Agent_CS_All_Issues_Text]]"
+        },
+        {
+            "title": "[[Agent_CS_Summarize_Latest_Issues_Title]]",
+            "text": "[[Agent_CS_Summarize_Latest_Issues_Text]]"
+        },
+        {
+            "title": "[[Agent_CS_Assign_Issue_Title]]",
+            "text": "[[Agent_CS_Assign_Issue_Text]]"
+        }
+    ],
+    "capabilities": [
+        {
+            "name": "GraphConnectors",
+            "connections": [
+                { 
+                    "connection_id": "${{CONNECTION_ID}}"
+                }
+            ]
+        },
+        {
+            "name": "WebSearch",
+            "sites": [
+                { "url": "https://docs.github.com/en/issues" }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "id": "github",
+            "file": "github-apiplugin.json"
+        }
+    ]
+}

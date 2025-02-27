@@ -166,3 +166,15 @@ export async function zipAppPackage(env = "dev") {
   await input.selectQuickPick(env);
   await driver.sleep(Timeout.input);
 }
+
+export async function zipAppPackageNoenv() {
+  await execCommandIfExist(
+    CommandPaletteCommands.BuildTeamsPackageCommand,
+    Timeout.webView
+  );
+  const driver = VSBrowser.instance.driver;
+  await driver.sleep(Timeout.input);
+  const input = await InputBox.create();
+  await input.selectQuickPick("manifest.json");
+  await driver.sleep(Timeout.input);
+}

@@ -1,0 +1,9 @@
+### Get all issues from a repository
+GET https://api.github.com/repos/sebastienlevert/github-agent/issues
+
+### Add assignee to an issue
+GET https://api.github.com/repos/sebastienlevert/github-agent/issues/assignees
+
+{
+    "assignees":["baywet"]
+}

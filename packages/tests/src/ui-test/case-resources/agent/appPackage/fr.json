@@ -1,0 +1,19 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.Localization.schema.json",
+    "name.short": "Agent GitHub",
+    "name.full": "Agent pour les tâches GitHub",
+    "description.short": "Outil pour les professionnels de la gestion de project avec GitHub",
+    "description.full": "Outil pour les professionnels de la gestion de projet avec GitHub qui permet de créer des tâches, assigner des tâches et obtenir de l'aide sur l'utilisation de GitHub pour la gestion de projet",
+    "localizationKeys": {
+        "Agent_Name": "Agent GitHub (${{TEAMS_APP_VERSION}}) - ${{OWNER}}",
+        "Agent_Description": "Un assistant pour les professionnels de la gestion de projet avec GitHub.",
+        "Agent_CS_My_Issues_Title": "Mes tâches",
+        "Agent_CS_My_Issues_Text": "Quelles sont mes tâches?",
+        "Agent_CS_All_Issues_Title": "Toutes les tâches",
+        "Agent_CS_All_Issues_Text": "Lister toutes les tâches GitHub",
+        "Agent_CS_Summarize_Latest_Issues_Title": "Résumer les dernières tâches",
+        "Agent_CS_Summarize_Latest_Issues_Text": "Résumez-moi les 10 dernières tâches de GitHub",
+        "Agent_CS_Assign_Issue_Title": "Assigner une tâche",
+        "Agent_CS_Assign_Issue_Text": "Assigner la tâche #3 à sebastienlevert"
+    }
+}

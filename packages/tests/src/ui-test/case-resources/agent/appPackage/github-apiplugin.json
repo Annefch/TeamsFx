@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/plugin/v2.1/schema.json",
+  "schema_version": "v2.1",
+  "name_for_human": "GitHub v3 REST API",
+  "description_for_human": "GitHub\u0027s v3 REST API.",
+  "description_for_model": "GitHub\u0027s v3 REST API.",
+  "logo_url": "https://api.apis.guru/v2/cache/logo/https_twitter.com_github_profile_image.jpeg",
+  "contact_email": "publisher-email@example.com",
+  "namespace": "GitHub",
+  "capabilities": {
+    "conversation_starters": [
+      {
+        "text": "Add assignees to an issue"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "issues_add_assignees",
+      "description": "Adds up to 10 assignees to an issue. Users already assigned to an issue are not replaced."
+    }
+  ],
+  "runtimes": [
+    {
+      "type": "OpenApi",
+      "auth": {
+        "type": "OAuthPluginVault",
+        "reference_id": "N2ViY2Y1N2QtMDU5YS00ZDg5LTgyZGMtYTAxY2U4MTI1MWMyIyNjMmQ0Njc4MS03MTM0LTQxNDEtYTNlMi00NjA0ZGRlMjYzYWE="
+      },
+      "spec": {
+        "url": "github-openapi.yml"
+      },
+      "run_for_functions": [
+        "issues_add_assignees"
+      ]
+    }
+  ]
+}

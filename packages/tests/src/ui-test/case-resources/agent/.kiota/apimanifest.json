@@ -1,0 +1,19 @@
+{
+  "applicationName": "application",
+  "apiDependencies": {
+    "GitHub": {
+      "apiDescriptionUrl": "https://raw.githubusercontent.com/APIs-guru/openapi-directory/gh-pages/v2/specs/github.com/1.1.4/openapi.json",
+      "apiDeploymentBaseUrl": "https://api.github.com/",
+      "requests": [
+        {
+          "method": "POST",
+          "uriTemplate": "repos/{owner}/{repo}/issues/{issue_number}/assignees"
+        }
+      ],
+      "extensions": {
+        "x-ms-kiota-hash": "717F1CC8CB52DCA7F8B1E942C828E2DD8C84274F575B0080F3CBB8F569F9A67C",
+        "x-ms-kiota-version": "1.19.1"
+      }
+    }
+  }
+}
